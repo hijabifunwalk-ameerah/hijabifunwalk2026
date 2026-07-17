@@ -1,0 +1,1245 @@
+<!doctype html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HIJABI FUN Walk 2026</title>
+  
+  <!-- CDNs for Tailwind CSS and Lucide Icons -->
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      /* Tema Soft Pink / Rose */
+      --primary-950: #4c0519; /* dark rose */
+      --primary-900: #881337;
+      --primary-700: #e11d48; /* vibrant rose/pink */
+      --gold: #c99d46;
+      --gold-soft: #f6ead0;
+      --cream: #fbf8f0;
+      --ink: #2a0a14;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: "DM Sans", sans-serif;
+      color: var(--ink);
+      background: #fdf2f8; /* pink-50 */
+    }
+    .app-shell { width: 100%; min-height: 100%; }
+    .serif { font-family: "Fraunces", serif; }
+    
+    /* Overlay and Background Patterns */
+    .hero-overlay {
+      background: linear-gradient(112deg, rgba(136, 19, 55, .94) 0%, rgba(190, 18, 60, .82) 46%, rgba(136, 19, 55, .32) 100%);
+    }
+    .islamic-pattern {
+      background-image: radial-gradient(circle at 1px 1px, rgba(201,157,70,.28) 1px, transparent 0);
+      background-size: 18px 18px;
+    }
+    
+    /* Card Styles */
+    .section-card {
+      border: 1px solid rgba(225, 29, 72, .13);
+      box-shadow: 0 14px 34px rgba(76, 5, 25, .07);
+    }
+    .section-icon {
+      width: 42px;
+      height: 42px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex: 0 0 auto;
+      border-radius: 14px;
+      background: linear-gradient(135deg, #fff1f2, #f8ebcf);
+      color: var(--primary-900);
+    }
+    
+    /* Form Inputs */
+    .form-control {
+      width: 100%;
+      border: 1px solid #fecdd3; /* rose-200 */
+      border-radius: 12px;
+      background: #fff;
+      padding: .78rem .9rem;
+      font: inherit;
+      color: var(--ink);
+      outline: none;
+      transition: border-color .18s ease, box-shadow .18s ease;
+    }
+    .form-control:focus {
+      border-color: var(--primary-700);
+      box-shadow: 0 0 0 4px rgba(225, 29, 72, .12);
+    }
+    .form-control:disabled {
+      background: #f1f5f9;
+      color: #94a3b8;
+      cursor: not-allowed;
+    }
+    .form-control::file-selector-button {
+      border: 0;
+      border-radius: 8px;
+      padding: .48rem .72rem;
+      margin-right: .7rem;
+      color: #fff;
+      background: var(--primary-900);
+      font-weight: 700;
+      cursor: pointer;
+    }
+    
+    .radio-card {
+      border: 2px solid #ffe4e6; /* rose-100 */
+      background: #fff;
+      transition: all .18s ease;
+    }
+    .radio-card:has(input:checked) {
+      border-color: var(--primary-700);
+      background: #fff1f2; /* rose-50 */
+      box-shadow: 0 4px 12px rgba(225, 29, 72, .11);
+      transform: translateY(-2px);
+    }
+    .radio-card input { accent-color: var(--primary-700); width: 1.25rem; height: 1.25rem; }
+
+    .required::after {
+      content: " *";
+      color: #b42318;
+      font-weight: 700;
+    }
+    
+    /* Progress and UI States */
+    .progress-fill { transition: width .35s ease; }
+    .success-view { display: none; }
+    .success-view.show { display: block; animation: rise .5s ease both; }
+    .form-view.hide { display: none; }
+    
+    .toast { display: none; }
+    .toast.show { display: flex; animation: rise .25s ease both; }
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @media (max-width: 640px) {
+      .hero-copy { padding-top: 6.5rem; padding-bottom: 2rem; }
+    }
+  </style>
+</head>
+
+<body style="background: linear-gradient(rgb(253, 242, 248) 0%, rgb(255, 241, 242) 55%, rgb(253, 242, 248) 100%);">
+  <div class="app-shell">
+    
+    <header class="relative overflow-hidden">
+      <img loading="lazy" class="absolute inset-0 h-full w-full object-cover" aria-hidden="true" src="https://scontent.fpen1-2.fna.fbcdn.net/v/t39.30808-6/486010406_1075213837965311_6332393240480346155_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1536&ctp=s590x590&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFGRmLNhdf8PtdUZdRIqpUPx3GbhL8BZgTHcZuEvwFmBFa0-_olxf5Zm3Pos_-fMG-1y6ZUMZiZ0E2nS3keBbwC&_nc_ohc=Jc9gHWVRX1sQ7kNvwE-ZTZo&_nc_oc=Adr_X7lVbu0GtLtbBLxrEG67HkzlMS1zRBbZR5x4yuyueeGEcVraOgswv_SsQ2p5v9o&_nc_zt=23&_nc_ht=scontent.fpen1-2.fna&_nc_gid=_phlnGx0m6Uq1Rmy4kPqUA&_nc_ss=7c2a8&oh=00_AQD4GpqxwPDjQbt-jhBUIpTUlJcfa_KZ-3Lubs8Unh8v2A&oe=6A5E3406">
+      <div class="hero-overlay absolute inset-0"></div>
+      <div class="islamic-pattern absolute inset-0 opacity-40"></div>
+      <div class="hero-copy relative mx-auto flex w-full max-w-5xl flex-col px-5 py-12 sm:px-8 sm:py-16 lg:px-10">
+        <div class="mb-7 inline-flex w-fit items-center gap-2 rounded-full border border-amber-200/45 bg-white/10 px-4 py-2 text-sm font-semibold text-amber-100 backdrop-blur">
+          <i data-lucide="sparkles" class="h-4 w-4"></i> 
+          <span style="color: rgb(252, 233, 184); font-weight: 700; font-style: normal; font-size: 16px;">Pendaftaran Individu & Keluarga Dibuka</span>
+        </div>
+        <div class="max-w-2xl">
+          <p class="mb-3 text-sm font-bold uppercase tracking-[0.18em] text-amber-200" style="color: rgb(248, 217, 145); font-weight: 700; font-style: normal; font-size: 16px;">Program Riadah Komuniti</p>
+          <h1 class="serif mb-3 max-w-xl font-bold leading-tight text-white" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 32px;">HIJABI FUN WALK 2026</h1>
+          <p class="mb-8 max-w-xl text-base font-medium text-rose-50 sm:text-lg" style="color: rgb(255, 241, 242); font-weight: 500; font-style: normal; font-size: 18px;">🚶‍♀️ Berjalan Bersama, Eratkan Ukhuwah</p>
+        </div>
+        
+        <div class="grid max-w-3xl grid-cols-1 gap-3 sm:grid-cols-3">
+          <div class="rounded-2xl border border-white/15 bg-white/10 p-4 backdrop-blur-sm">
+            <div class="mb-2 flex items-center gap-2 text-amber-200">
+              <i data-lucide="calendar-days" class="h-4 w-4"></i><span class="text-xs font-bold uppercase tracking-wider" style="color: rgb(248, 217, 145); font-weight: 700; font-style: normal; font-size: 16px;">Tarikh</span>
+            </div>
+            <p class="text-sm font-semibold text-white" style="color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 16px;">16 September 2026 (Rabu)</p>
+          </div>
+          <div class="rounded-2xl border border-white/15 bg-white/10 p-4 backdrop-blur-sm">
+            <div class="mb-2 flex items-center gap-2 text-amber-200">
+              <i data-lucide="clock-3" class="h-4 w-4"></i><span class="text-xs font-bold uppercase tracking-wider" style="color: rgb(248, 217, 145); font-weight: 700; font-style: normal; font-size: 16px;">Masa</span>
+            </div>
+            <p class="text-sm font-semibold text-white" style="color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 16px;">7.30 Pagi</p>
+          </div>
+          <div class="rounded-2xl border border-white/15 bg-white/10 p-4 backdrop-blur-sm">
+            <div class="mb-2 flex items-center gap-2 text-amber-200">
+              <i data-lucide="map-pin" class="h-4 w-4"></i><span class="text-xs font-bold uppercase tracking-wider" style="color: rgb(248, 217, 145); font-weight: 700; font-style: normal; font-size: 16px;">Lokasi</span>
+            </div>
+            <p class="text-sm font-semibold text-white" style="color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 16px;">Pantai Pulau Kekabu, Marang</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="mx-auto w-full max-w-5xl px-4 py-8 sm:px-6 lg:px-8">
+      <div id="toast" class="toast fixed bottom-5 left-1/2 z-50 w-[calc(100%-2rem)] max-w-md -translate-x-1/2 items-center gap-3 rounded-2xl bg-rose-950 px-4 py-3 text-sm font-medium text-white shadow-xl" role="status" aria-live="polite">
+        <i data-lucide="info" class="h-5 w-5 shrink-0 text-amber-300"></i> <span id="toast-text"></span>
+      </div>
+      
+      <section class="section-card mb-6 overflow-hidden rounded-3xl bg-white" style="background: rgb(255, 255, 255);">
+        <div class="p-6 sm:p-8">
+          <p class="mb-2 text-sm font-bold uppercase tracking-[0.15em] text-rose-600" style="color: rgb(225, 29, 72); font-weight: 700; font-style: normal; font-size: 16px;">Langkah Sihat</p>
+          <h2 class="serif mb-3 font-bold text-rose-950" style="color: rgb(76, 5, 25); font-weight: 700; font-style: normal; font-size: 24px;">Pengenalan Program</h2>
+          <p class="mb-6 leading-7 text-slate-600" style="color: rgb(71, 85, 105); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.7;">Sertai program HIJABI FUN WALK 2026 secara individu atau bersama keluarga anda! Program riadah ini menghimpunkan wanita dan ahli keluarga dalam suasana sihat, santai dan harmoni.</p>
+          <h3 class="mb-3 font-bold text-rose-950" style="color: rgb(76, 5, 25); font-weight: 700; font-style: normal; font-size: 19px;">Setiap peserta berdaftar akan menerima:</h3>
+          <ul class="grid gap-2 text-sm text-slate-700 sm:grid-cols-2">
+            <li class="flex items-center gap-2" style="color: rgb(51, 65, 85); font-weight: 400; font-style: normal; font-size: 16px;"><i data-lucide="check-circle-2" class="h-4 w-4 text-rose-500"></i> T-Shirt Program</li>
+            <li class="flex items-center gap-2" style="color: rgb(51, 65, 85); font-weight: 400; font-style: normal; font-size: 16px;"><i data-lucide="check-circle-2" class="h-4 w-4 text-rose-500"></i> Medal Finisher</li>
+            <li class="flex items-center gap-2" style="color: rgb(51, 65, 85); font-weight: 400; font-style: normal; font-size: 16px;"><i data-lucide="check-circle-2" class="h-4 w-4 text-rose-500"></i> Nombor Bib</li>
+            <li class="flex items-center gap-2" style="color: rgb(51, 65, 85); font-weight: 400; font-style: normal; font-size: 16px;"><i data-lucide="check-circle-2" class="h-4 w-4 text-rose-500"></i> E-Sijil Penyertaan</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section-card mb-6 rounded-3xl bg-white p-6 sm:p-8" style="background: rgb(255, 255, 255);">
+        <div class="mb-5 flex items-start gap-3"><span class="section-icon"><i data-lucide="clipboard-check" class="h-5 w-5"></i></span>
+          <div>
+            <p class="text-sm font-bold uppercase tracking-[0.15em] text-rose-600" style="color: rgb(225, 29, 72); font-weight: 700; font-style: normal; font-size: 16px;">Panduan Penyertaan</p>
+            <h2 class="serif font-bold text-rose-950" style="color: rgb(76, 5, 25); font-weight: 700; font-style: normal; font-size: 24px;">Syarat Penyertaan</h2>
+          </div>
+        </div>
+        <div class="grid gap-4 md:grid-cols-2">
+          <article class="rounded-2xl border border-rose-100 bg-rose-50 p-5" style="background: rgb(255, 241, 242);">
+            <h3 class="mb-3 font-bold text-rose-950" style="color: rgb(76, 5, 25); font-weight: 700; font-style: normal; font-size: 19px;">Kategori Dewasa</h3>
+            <ul class="space-y-2 text-sm leading-6 text-slate-700">
+              <li style="color: rgb(51, 65, 85); font-weight: 400; font-style: normal; font-size: 16px;">• Wanita sahaja (bagi wakil keluarga juga)</li>
+              <li style="color: rgb(51, 65, 85); font-weight: 400; font-style: normal; font-size: 16px;">• Berumur 13 tahun ke atas</li>
+              <li style="color: rgb(51, 65, 85); font-weight: 400; font-style: normal; font-size: 16px;">• Yuran standard: RM55 / seorang</li>
+            </ul>
+          </article>
+          <article class="rounded-2xl border border-amber-100 bg-amber-50 p-5" style="background: rgb(255, 248, 230);">
+            <h3 class="mb-3 font-bold text-rose-950" style="color: rgb(76, 5, 25); font-weight: 700; font-style: normal; font-size: 19px;">Kategori Kanak-kanak</h3>
+            <ul class="space-y-2 text-sm leading-6 text-slate-700">
+              <li style="color: rgb(51, 65, 85); font-weight: 400; font-style: normal; font-size: 16px;">• Lelaki &amp; Perempuan dibenarkan</li>
+              <li style="color: rgb(51, 65, 85); font-weight: 400; font-style: normal; font-size: 16px;">• Berumur 12 tahun ke bawah</li>
+              <li style="color: rgb(51, 65, 85); font-weight: 400; font-style: normal; font-size: 16px;">• Yuran standard: RM40 / seorang</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section aria-label="Kemajuan borang" class="mb-5 rounded-2xl border border-rose-100 bg-white px-5 py-4 shadow-sm">
+        <div class="mb-2 flex items-center justify-between">
+          <span class="text-sm font-bold text-rose-950" style="color: rgb(76, 5, 25); font-weight: 700; font-style: normal; font-size: 16px;">Kemajuan pendaftaran</span> 
+          <span id="progress-text" class="text-sm font-bold text-rose-600">0%</span>
+        </div>
+        <div class="h-2 overflow-hidden rounded-full bg-rose-100">
+          <div id="progress-fill" class="progress-fill h-full rounded-full bg-gradient-to-r from-rose-600 to-pink-400" style="width:0%"></div>
+        </div>
+      </section>
+
+      <form id="registration-form" class="form-view space-y-6" novalidate="">
+        
+        <!-- Pilihan Pendaftaran: Individu atau Keluarga -->
+        <section class="section-card rounded-3xl bg-white p-6 sm:p-8" style="background: rgb(255, 255, 255);">
+          <div class="mb-5 flex items-start gap-3"><span class="section-icon"><i data-lucide="layout-grid" class="h-5 w-5"></i></span>
+            <div>
+              <p class="text-sm font-bold uppercase tracking-[0.15em] text-rose-600" style="color: rgb(225, 29, 72); font-weight: 700; font-style: normal; font-size: 16px;">Langkah 1</p>
+              <h2 class="serif font-bold text-rose-950" style="color: rgb(76, 5, 25); font-weight: 700; font-style: normal; font-size: 24px;">Pilih Jenis Pendaftaran</h2>
+            </div>
+          </div>
+          <fieldset>
+            <div class="grid gap-4 sm:grid-cols-2">
+              <label class="radio-card flex cursor-pointer items-start gap-4 rounded-2xl p-5">
+                <input class="mt-1" type="radio" name="reg_type" value="individu" required="">
+                <span class="block">
+                  <span class="block font-bold text-rose-950" style="color: rgb(76, 5, 25); font-weight: 700; font-style: normal; font-size: 18px;">Pendaftaran Individu</span>
+                  <span class="mt-1 block text-sm leading-relaxed text-slate-600">Daftar untuk diri anda sahaja atau seorang peserta.</span>
+                </span>
+              </label>
+              <label class="radio-card flex cursor-pointer items-start gap-4 rounded-2xl p-5">
+                <input class="mt-1" type="radio" name="reg_type" value="keluarga" required="">
+                <span class="block">
+                  <span class="block font-bold text-rose-950" style="color: rgb(76, 5, 25); font-weight: 700; font-style: normal; font-size: 18px;">Pendaftaran Keluarga</span>
+                  <span class="mt-1 block text-sm leading-relaxed text-slate-600">Daftar secara berkumpulan (ketua keluarga dan ahli-ahli lain).</span>
+                </span>
+              </label>
+            </div>
+          </fieldset>
+        </section>
+
+        <!-- SEKSYEN INDIVIDU -->
+        <div id="individu-section" class="hidden space-y-6">
+          <section class="section-card rounded-3xl bg-white p-6 sm:p-8">
+            <div class="mb-6 flex items-start gap-3"><span class="section-icon"><i data-lucide="user" class="h-5 w-5"></i></span>
+              <div>
+                <p class="text-sm font-bold uppercase tracking-[0.15em] text-rose-600">Langkah 2 (Individu)</p>
+                <h2 class="serif font-bold text-rose-950 text-2xl">Maklumat Peserta Individu</h2>
+              </div>
+            </div>
+            
+            <div class="grid gap-5 sm:grid-cols-2 mb-6">
+              <div class="sm:col-span-2">
+                <label class="required mb-2 block text-sm font-semibold text-slate-700">Nama Penuh</label>
+                <input name="ind_name" class="form-control" type="text" autocomplete="name">
+              </div>
+              <div>
+                <label class="required mb-2 block text-sm font-semibold text-slate-700">No. Telefon</label>
+                <input name="ind_phone" class="form-control" type="tel" autocomplete="tel">
+              </div>
+              <div>
+                <label class="required mb-2 block text-sm font-semibold text-slate-700">Emel</label>
+                <input name="ind_email" class="form-control" type="email" autocomplete="email">
+              </div>
+              <div class="sm:col-span-2">
+                <label class="required mb-2 block text-sm font-semibold text-slate-700">Alamat Penuh</label>
+                <textarea name="ind_address" class="form-control min-h-[100px]" autocomplete="street-address"></textarea>
+              </div>
+              <div>
+                <label class="required mb-2 block text-sm font-semibold text-slate-700">Bandar</label>
+                <input name="ind_city" class="form-control" type="text" autocomplete="address-level2">
+              </div>
+              <div>
+                <label class="required mb-2 block text-sm font-semibold text-slate-700">Negeri</label>
+                <input name="ind_state" class="form-control" type="text" autocomplete="address-level1">
+              </div>
+              <div>
+                <label class="required mb-2 block text-sm font-semibold text-slate-700">Poskod</label>
+                <input name="ind_postcode" class="form-control" inputmode="numeric" type="text" autocomplete="postal-code">
+              </div>
+            </div>
+
+            <hr class="border-slate-100 my-6">
+
+            <div class="mb-4">
+              <h3 class="font-bold text-rose-950 text-lg mb-4"><i data-lucide="shirt" class="inline-block w-5 h-5 mr-1 text-rose-600"></i> Kategori & Saiz Baju</h3>
+            </div>
+            
+            <div class="grid gap-5 sm:grid-cols-2">
+              <div>
+                <label class="required mb-2 block text-sm font-semibold text-slate-700">Kategori</label>
+                <select name="ind_category" id="ind-category-select" class="form-control">
+                  <option value="">Pilih kategori...</option>
+                  <option value="adult">Dewasa (RM55)</option>
+                  <option value="child">Kanak-kanak (RM40)</option>
+                </select>
+              </div>
+              <div id="ind-size-container">
+                <label class="required mb-2 block text-sm font-semibold text-slate-700">Saiz Baju</label>
+                <select name="ind_size" id="ind-size-select" class="form-control" disabled>
+                  <option value="">Pilih kategori terlebih dahulu...</option>
+                </select>
+              </div>
+              <div id="ind-ic-container" class="hidden sm:col-span-2">
+                <label class="required mb-2 block text-sm font-semibold text-slate-700">No. Kad Pengenalan</label>
+                <input name="ind_ic" id="ind-ic-input" class="form-control w-full sm:w-1/2" type="text" placeholder="Contoh: 900101-11-1234" maxlength="14">
+              </div>
+              <div id="ind-gender-container" class="hidden sm:col-span-2">
+                <label class="required mb-2 block text-sm font-semibold text-slate-700">Jantina (Untuk Kanak-kanak sahaja)</label>
+                <select name="ind_gender" id="ind-gender-select" class="form-control w-full sm:w-1/2">
+                  <option value="">Pilih jantina</option>
+                  <option value="Lelaki">Lelaki</option>
+                  <option value="Perempuan">Perempuan</option>
+                </select>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!-- SEKSYEN KELUARGA -->
+        <div id="keluarga-section" class="hidden space-y-6">
+          <section class="section-card rounded-3xl bg-white p-6 sm:p-8">
+            <div class="mb-6 flex items-start gap-3"><span class="section-icon"><i data-lucide="home" class="h-5 w-5"></i></span>
+              <div>
+                <p class="text-sm font-bold uppercase tracking-[0.15em] text-rose-600">Langkah 2a (Keluarga)</p>
+                <h2 class="serif font-bold text-rose-950 text-2xl">Maklumat Ketua Keluarga / Wakil</h2>
+              </div>
+            </div>
+            <div class="grid gap-5 sm:grid-cols-2">
+              <div class="sm:col-span-2">
+                <label class="required mb-2 block text-sm font-semibold text-slate-700">Nama Penuh Wakil (Mesti wanita dewasa)</label>
+                <input name="head_name" class="form-control" type="text" autocomplete="name">
+              </div>
+              <div>
+                <label class="required mb-2 block text-sm font-semibold text-slate-700">No. Telefon</label>
+                <input name="head_phone" class="form-control" type="tel" autocomplete="tel">
+              </div>
+              <div>
+                <label class="required mb-2 block text-sm font-semibold text-slate-700">Emel</label>
+                <input name="head_email" class="form-control" type="email" autocomplete="email">
+              </div>
+              <div class="sm:col-span-2">
+                <label class="required mb-2 block text-sm font-semibold text-slate-700">Alamat Penuh</label>
+                <textarea name="head_address" class="form-control min-h-[100px]" autocomplete="street-address"></textarea>
+              </div>
+              <div>
+                <label class="required mb-2 block text-sm font-semibold text-slate-700">Bandar</label>
+                <input name="head_city" class="form-control" type="text" autocomplete="address-level2">
+              </div>
+              <div>
+                <label class="required mb-2 block text-sm font-semibold text-slate-700">Negeri</label>
+                <input name="head_state" class="form-control" type="text" autocomplete="address-level1">
+              </div>
+              <div>
+                <label class="required mb-2 block text-sm font-semibold text-slate-700">Poskod</label>
+                <input name="head_postcode" class="form-control" inputmode="numeric" type="text" autocomplete="postal-code">
+              </div>
+            </div>
+          </section>
+
+          <section class="section-card rounded-3xl bg-white p-6 sm:p-8">
+            <div class="mb-6 flex items-start gap-3"><span class="section-icon"><i data-lucide="users" class="h-5 w-5"></i></span>
+              <div>
+                <p class="text-sm font-bold uppercase tracking-[0.15em] text-rose-600">Langkah 2b (Keluarga)</p>
+                <h2 class="serif font-bold text-rose-950 text-2xl">Senarai Ahli Keluarga (Peserta)</h2>
+                <p class="text-sm mt-1 text-slate-600">Sila masukkan butiran setiap peserta. <strong>Ketua keluarga yang ingin menyertai larian juga perlu dimasukkan di bawah.</strong></p>
+              </div>
+            </div>
+            
+            <div id="participants-container" class="space-y-6 mb-6">
+              <!-- Dynamic participant cards injected here -->
+            </div>
+            
+            <button type="button" id="add-participant-btn" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-xl border-2 border-rose-600 bg-white px-5 py-3 font-bold text-rose-600 transition hover:bg-rose-50 focus:outline-none focus:ring-4 focus:ring-rose-200">
+              <i data-lucide="plus-circle" class="h-5 w-5"></i> Tambah Ahli Keluarga
+            </button>
+          </section>
+        </div>
+
+        <!-- SEKSYEN KECEMASAN (Umum) -->
+        <section id="emergency-section" class="hidden section-card rounded-3xl bg-white p-6 sm:p-8">
+          <div class="mb-6 flex items-start gap-3"><span class="section-icon"><i data-lucide="siren" class="h-5 w-5"></i></span>
+            <div>
+              <p class="text-sm font-bold uppercase tracking-[0.15em] text-rose-600">Langkah 3</p>
+              <h2 class="serif font-bold text-rose-950 text-2xl">Maklumat Kecemasan</h2>
+            </div>
+          </div>
+          <div class="grid gap-5 sm:grid-cols-3">
+            <div>
+              <label class="required mb-2 block text-sm font-semibold text-slate-700">Nama Waris</label>
+              <input name="emergency_name" class="form-control common-required" type="text">
+            </div>
+            <div>
+              <label class="required mb-2 block text-sm font-semibold text-slate-700">No. Telefon Waris</label>
+              <input name="emergency_phone" class="form-control common-required" type="tel">
+            </div>
+            <div>
+              <label class="required mb-2 block text-sm font-semibold text-slate-700">Hubungan</label>
+              <input name="emergency_relation" class="form-control common-required" type="text">
+            </div>
+          </div>
+        </section>
+
+        <!-- SEKSYEN YURAN (Umum) -->
+        <section id="fee-section" class="hidden section-card rounded-3xl bg-[#fffaf0] p-6 sm:p-8">
+          <div class="mb-5 flex items-start gap-3"><span class="section-icon"><i data-lucide="wallet-cards" class="h-5 w-5"></i></span>
+            <div>
+              <p class="text-sm font-bold uppercase tracking-[0.15em] text-rose-600">Langkah 4</p>
+              <h2 class="serif font-bold text-rose-950 text-2xl">Yuran Penyertaan</h2>
+            </div>
+          </div>
+          <div class="grid gap-4 sm:grid-cols-2 mb-5">
+            <div class="rounded-2xl border border-amber-200 bg-white p-5">
+              <p class="font-bold text-rose-950">Dewasa</p>
+              <p class="serif mt-1 font-bold text-rose-600">RM55 / individu</p>
+            </div>
+            <div class="rounded-2xl border border-amber-200 bg-white p-5">
+              <p class="font-bold text-rose-950">Kanak-kanak</p>
+              <p class="serif mt-1 font-bold text-rose-600">RM40 / individu</p>
+            </div>
+          </div>
+          
+          <div class="rounded-2xl border border-rose-100 bg-white shadow-sm overflow-hidden">
+            <div class="bg-rose-50 px-5 py-3 border-b border-rose-100">
+              <h3 class="font-bold text-rose-900 text-sm uppercase tracking-wide">Ringkasan Pendaftaran</h3>
+            </div>
+            <div class="p-5">
+              <div id="summary-list" class="space-y-2 mb-4 pb-4 border-b border-slate-100 text-sm">
+                <div class="text-slate-500 italic">Sila isi maklumat peserta di atas.</div>
+              </div>
+              <div class="flex items-center justify-between">
+                <span class="text-base font-bold text-rose-950">Jumlah Keseluruhan:</span> 
+                <strong id="summary-total" class="text-2xl font-bold text-rose-600 serif">RM 0</strong>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- SEKSYEN PEMBAYARAN (Umum) -->
+        <section id="payment-section" class="hidden section-card rounded-3xl bg-white p-6 sm:p-8">
+          <div class="mb-6 flex items-start gap-3"><span class="section-icon"><i data-lucide="credit-card" class="h-5 w-5"></i></span>
+            <div>
+              <p class="text-sm font-bold uppercase tracking-[0.15em] text-rose-600">Langkah 5</p>
+              <h2 class="serif font-bold text-rose-950 text-2xl">Kaedah Pembayaran</h2>
+            </div>
+          </div>
+          
+          <div class="mb-6">
+            <label class="required mb-2 block text-sm font-semibold text-slate-700">Pilih Kaedah Pembayaran</label>
+            <select id="payment-method-select" class="form-control" required>
+              <option value="">-- Sila Pilih --</option>
+              <option value="toyyibpay">ToyyibPay</option>
+              <option value="bank">Bank Transfer</option>
+              <option value="qr">QR Code</option>
+            </select>
+          </div>
+
+          <div id="payment-details-toyyibpay" class="hidden rounded-2xl border border-rose-100 bg-rose-50 p-5 mb-5">
+            <h3 class="mb-2 font-bold text-rose-950 text-lg">ToyyibPay</h3>
+            <p class="mb-4 text-sm leading-6 text-slate-600">Sila buat pembayaran melalui pautan rasmi di bawah:</p>
+            <a href="https://toyyibpay.com/HIJABI-FUN-WALK-2026" target="_blank" class="inline-flex w-full items-center justify-center gap-2 rounded-xl px-5 py-3 font-bold transition hover:brightness-95" style="background: rgb(225, 29, 72); color: rgb(255, 255, 255);">Bayar di ToyyibPay</a>
+          </div>
+
+          <div id="payment-details-bank" class="hidden rounded-2xl border border-amber-100 bg-amber-50 p-5 mb-5">
+            <h3 class="mb-4 font-bold text-rose-950 text-lg">Bank Transfer</h3>
+            <dl class="space-y-3 text-sm">
+              <div class="flex flex-col gap-1 sm:flex-row sm:justify-between">
+                <dt class="font-semibold text-slate-600">Bank</dt>
+                <dd class="font-bold text-rose-950">Agro Bank</dd>
+              </div>
+              <div class="flex flex-col gap-1 sm:flex-row sm:justify-between">
+                <dt class="font-semibold text-slate-600">No. Akaun</dt>
+                <dd class="break-all font-bold text-rose-950">1006561000098481</dd>
+              </div>
+              <div class="flex flex-col gap-1 sm:flex-row sm:justify-between">
+                <dt class="font-semibold text-slate-600">Nama Akaun</dt>
+                <dd class="max-w-[260px] font-bold text-rose-950 sm:text-right">Persatuan Bakti Wanita Marang (MAWAR)</dd>
+              </div>
+            </dl>
+          </div>
+
+          <div id="payment-details-qr" class="hidden rounded-2xl border border-rose-100 bg-rose-50 p-5 mb-5">
+            <h3 class="mb-2 font-bold text-rose-950 text-lg">QR Code</h3>
+            <p class="mb-4 text-sm leading-6 text-slate-600">Sila imbas QR Code untuk pembayaran melalui pautan di bawah:</p>
+            <a href="https://drive.google.com/file/d/1BL4HtaPFtmZ1FzLN8PqEDQpH140oZGSm/view" target="_blank" class="inline-flex w-full items-center justify-center gap-2 rounded-xl px-5 py-3 font-bold transition hover:brightness-95" style="background: rgb(225, 29, 72); color: rgb(255, 255, 255);">Buka QR Code (Google Drive)</a>
+          </div>
+
+          <div class="border-t border-slate-100 pt-6">
+            <label class="required mb-2 block text-sm font-semibold text-slate-700" for="payment-proof">Muat Naik Bukti Pembayaran Keseluruhan</label> 
+            <input id="payment-proof" name="payment_proof" class="form-control common-required" type="file" accept=".jpg,.jpeg,.png,.pdf,image/jpeg,image/png,application/pdf">
+            <p class="mt-2 text-sm leading-6 text-slate-500">Sila satukan bayaran dalam satu resit mengikut jumlah yuran. Format: JPG, PNG atau PDF · Saiz maksimum: 10MB.</p>
+            <p id="file-status" class="mt-2 hidden text-sm font-semibold" aria-live="polite"></p>
+          </div>
+        </section>
+
+        <!-- SEKSYEN PENGESAHAN (Umum) -->
+        <section id="confirmation-section" class="hidden section-card rounded-3xl bg-white p-6 sm:p-8">
+          <div class="mb-6 flex items-start gap-3"><span class="section-icon"><i data-lucide="badge-check" class="h-5 w-5"></i></span>
+            <div>
+              <p class="text-sm font-bold uppercase tracking-[0.15em] text-rose-600">Langkah 6</p>
+              <h2 class="serif font-bold text-rose-950 text-2xl">Pengesahan</h2>
+            </div>
+          </div>
+          <div class="space-y-4">
+            <label class="flex cursor-pointer items-start gap-3">
+              <input class="common-required mt-1 h-4 w-4 accent-rose-600" type="checkbox">
+              <span class="text-sm leading-6 text-slate-700">Saya mengesahkan semua maklumat yang diberikan adalah benar.</span>
+            </label> 
+            <label class="flex cursor-pointer items-start gap-3">
+              <input class="common-required mt-1 h-4 w-4 accent-rose-600" type="checkbox">
+              <span class="text-sm leading-6 text-slate-700">Saya / Keluarga kami bersetuju mematuhi semua syarat penyertaan program ini.</span>
+            </label> 
+            <label class="flex cursor-pointer items-start gap-3">
+              <input class="common-required mt-1 h-4 w-4 accent-rose-600" type="checkbox">
+              <span class="text-sm leading-6 text-slate-700">Saya memahami bahawa yuran penyertaan tidak akan dipulangkan setelah pembayaran dibuat.</span>
+            </label> 
+            <label class="flex cursor-pointer items-start gap-3">
+              <input class="common-required mt-1 h-4 w-4 accent-rose-600" type="checkbox">
+              <span class="text-sm leading-6 text-slate-700">Saya membenarkan pihak penganjur menggunakan gambar atau video sepanjang program bagi tujuan dokumentasi dan promosi.</span>
+            </label>
+          </div>
+          <p id="form-error" class="mt-5 hidden rounded-xl border border-red-200 bg-red-50 p-3 text-sm font-medium text-red-700" role="alert"></p>
+          <button id="submit-button" class="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-xl px-6 py-4 font-bold shadow-lg transition hover:-translate-y-0.5 hover:brightness-95 focus:outline-none focus:ring-4 focus:ring-rose-200" type="submit" style="background: rgb(225, 29, 72); color: rgb(255, 255, 255); font-size: 16px;">Hantar Pendaftaran</button>
+        </section>
+      </form>
+
+      <section id="success-view" class="success-view section-card overflow-hidden rounded-3xl bg-white text-center">
+        <div class="bg-rose-950 px-6 py-12 text-white sm:px-10">
+          <div class="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full border border-amber-300/50 bg-white/10 text-amber-300">
+            <i data-lucide="heart-handshake" class="h-8 w-8"></i>
+          </div>
+          <h2 class="serif mb-3 font-bold text-white text-2xl">Terima Kasih!</h2>
+          <p class="mx-auto max-w-xl leading-7 text-rose-100 text-base">Pendaftaran anda telah berjaya diterima. Pihak penganjur akan menghubungi anda sekiranya terdapat sebarang maklumat tambahan yang diperlukan.</p>
+          
+          <a href="https://t.me/+ZdzbNmUlgEQ3ZjRl" target="_blank" class="mx-auto mt-8 flex max-w-sm items-center justify-center gap-3 rounded-xl bg-[#0088cc] px-6 py-4 font-bold text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-[#0077b3] focus:outline-none focus:ring-4 focus:ring-blue-500/30">
+            <i data-lucide="send" class="h-6 w-6"></i> Sertai Grup Telegram
+          </a>
+          
+          <button id="reset-form-btn" type="button" class="mx-auto mt-4 flex max-w-sm w-full items-center justify-center gap-3 rounded-xl bg-white px-6 py-4 font-bold text-rose-950 border-2 border-rose-100 shadow-sm transition hover:bg-rose-50 focus:outline-none focus:ring-4 focus:ring-rose-200">
+            <i data-lucide="refresh-cw" class="h-5 w-5 text-rose-700"></i> Daftar Peserta Lain
+          </button>
+        </div>
+        <div class="p-6 sm:p-9">
+          <p class="mb-2 text-sm font-bold uppercase tracking-[0.15em] text-rose-600">Jumpa anda di</p>
+          <h3 class="serif mb-6 font-bold text-rose-950 text-xl">HIJABI FUN WALK 2026</h3>
+          <div class="mx-auto grid max-w-2xl gap-3 text-left sm:grid-cols-3">
+            <div class="rounded-2xl bg-rose-50 p-4">
+              <i data-lucide="map-pin" class="mb-2 h-5 w-5 text-rose-600"></i>
+              <p class="text-sm font-semibold text-rose-950">📍 Pantai Pulau Kekabu, Marang</p>
+            </div>
+            <div class="rounded-2xl bg-rose-50 p-4">
+              <i data-lucide="calendar-days" class="mb-2 h-5 w-5 text-rose-600"></i>
+              <p class="text-sm font-semibold text-rose-950">📅 16 September 2026</p>
+            </div>
+            <div class="rounded-2xl bg-rose-50 p-4">
+              <i data-lucide="clock-3" class="mb-2 h-5 w-5 text-rose-600"></i>
+              <p class="text-sm font-semibold text-rose-950">🕢 7.30 Pagi</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- MODAL TELEGRAM (POP UP) -->
+      <div id="telegram-modal" class="fixed inset-0 z-[100] hidden flex-col items-center justify-center bg-rose-950/80 p-4 backdrop-blur-sm transition-opacity" aria-modal="true" role="dialog">
+        <div class="relative w-full max-w-md transform rounded-3xl bg-white p-6 shadow-2xl sm:p-8 text-center animate-[rise_0.3s_ease-out]">
+          <div class="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-[#e1f0fa] text-[#0088cc]">
+            <i data-lucide="send" class="h-8 w-8 -ml-1"></i>
+          </div>
+          <h3 class="serif mb-2 text-2xl font-bold text-rose-950">Pendaftaran Berjaya!</h3>
+          <p class="mb-6 text-sm leading-relaxed text-slate-600">Terima kasih kerana mendaftar. Anda <strong>wajib</strong> menyertai grup Telegram rasmi di bawah untuk mendapatkan maklumat terkini, nombor bib, dan hebahan program.</p>
+          <a href="https://t.me/+ZdzbNmUlgEQ3ZjRl" target="_blank" class="mb-4 flex w-full items-center justify-center gap-2 rounded-xl bg-[#0088cc] px-5 py-4 text-sm sm:text-base font-bold text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-[#0077b3] focus:outline-none focus:ring-4 focus:ring-blue-200">
+            <i data-lucide="send" class="h-5 w-5"></i> LINK GRUP PESERTA HIJABI FUN WALK 2026
+          </a>
+          <button id="close-modal-btn" type="button" class="mt-2 text-sm font-semibold text-slate-500 underline decoration-slate-300 underline-offset-4 hover:text-rose-700 transition-colors">Tutup paparan ini</button>
+        </div>
+      </div>
+    </main>
+    
+    <footer class="w-full px-4 pb-8 text-center text-sm text-slate-500">
+      <p>HIJABI FUN WALK 2026 · Bersama kita melangkah lebih sihat.</p>
+    </footer>
+  </div>
+
+  <script>
+    // MASUKKAN URL WEB APP GOOGLE APPS SCRIPT ANDA DI BAWAH
+    const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzQ6SHsyNIrSaLUd1awoLYjo-18q0ci-y077eYlGs-Gcum7D0Un5Mj-myA0Pe_dAK1B/exec";
+
+    document.addEventListener('DOMContentLoaded', () => {
+      lucide.createIcons();
+
+      const form = document.getElementById('registration-form');
+      const progressFill = document.getElementById('progress-fill');
+      const progressText = document.getElementById('progress-text');
+      
+      const typeRadios = document.querySelectorAll('input[name="reg_type"]');
+      const individuSection = document.getElementById('individu-section');
+      const keluargaSection = document.getElementById('keluarga-section');
+      
+      const emergencySection = document.getElementById('emergency-section');
+      const feeSection = document.getElementById('fee-section');
+      const paymentSection = document.getElementById('payment-section');
+      const confirmationSection = document.getElementById('confirmation-section');
+      
+      const participantsContainer = document.getElementById('participants-container');
+      const addParticipantBtn = document.getElementById('add-participant-btn');
+      
+      const summaryList = document.getElementById('summary-list');
+      const summaryTotal = document.getElementById('summary-total');
+      
+      const indCategorySelect = document.getElementById('ind-category-select');
+      const indSizeSelect = document.getElementById('ind-size-select');
+      const indGenderSelect = document.getElementById('ind-gender-select');
+      const indGenderContainer = document.getElementById('ind-gender-container');
+      const indIcContainer = document.getElementById('ind-ic-container');
+      const indIcInput = document.getElementById('ind-ic-input');
+      
+      const fileInput = document.getElementById('payment-proof');
+      const fileStatus = document.getElementById('file-status');
+      const errorBox = document.getElementById('form-error');
+      const successView = document.getElementById('success-view');
+      const toast = document.getElementById('toast');
+      const toastText = document.getElementById('toast-text');
+      
+      const telegramModal = document.getElementById('telegram-modal');
+      const closeModalBtn = document.getElementById('close-modal-btn');
+      const resetFormBtn = document.getElementById('reset-form-btn');
+      
+      closeModalBtn.addEventListener('click', () => {
+        telegramModal.classList.add('hidden');
+        telegramModal.classList.remove('flex');
+      });
+      
+      const paymentMethodSelect = document.getElementById('payment-method-select');
+      const paymentDetailsToyyibpay = document.getElementById('payment-details-toyyibpay');
+      const paymentDetailsBank = document.getElementById('payment-details-bank');
+      const paymentDetailsQr = document.getElementById('payment-details-qr');
+
+      function getChildSizeOptions(gender) {
+        const sleeve = gender === 'Lelaki' ? 'Lengan Pendek' : (gender === 'Perempuan' ? 'Lengan Panjang' : '');
+        if (!sleeve) return '<option value="">Pilih jantina terlebih dahulu...</option>';
+        
+        return `
+          <option value="">Pilih saiz</option>
+          <option value="8XS (${sleeve})">8XS (${sleeve})</option>
+          <option value="7XS (${sleeve})">7XS (${sleeve})</option>
+          <option value="6XS (${sleeve})">6XS (${sleeve})</option>
+          <option value="5XS (${sleeve})">5XS (${sleeve})</option>
+          <option value="4XS (${sleeve})">4XS (${sleeve})</option>
+          <option value="3XS (${sleeve})">3XS (${sleeve})</option>
+          <option value="2XS (${sleeve})">2XS (${sleeve})</option>
+        `;
+      }
+
+      resetFormBtn.addEventListener('click', () => {
+        form.reset();
+        successView.classList.remove('show');
+        form.classList.remove('hide');
+        
+        individuSection.classList.add('hidden');
+        keluargaSection.classList.add('hidden');
+        emergencySection.classList.add('hidden');
+        feeSection.classList.add('hidden');
+        paymentSection.classList.add('hidden');
+        confirmationSection.classList.add('hidden');
+        paymentDetailsToyyibpay.classList.add('hidden');
+        paymentDetailsBank.classList.add('hidden');
+        paymentDetailsQr.classList.add('hidden');
+        
+        participantsContainer.innerHTML = '';
+        participantCount = 0;
+        
+        indSizeSelect.innerHTML = '<option value="">Pilih kategori terlebih dahulu...</option>';
+        indSizeSelect.disabled = true;
+        indGenderContainer.classList.add('hidden');
+        indIcContainer.classList.add('hidden');
+        
+        fileStatus.classList.add('hidden');
+        fileInput.dataset.invalid = '';
+        
+        calculateTotal();
+        updateProgress();
+        
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+      
+      paymentMethodSelect.addEventListener('change', () => {
+        const val = paymentMethodSelect.value;
+        paymentDetailsToyyibpay.classList.add('hidden');
+        paymentDetailsBank.classList.add('hidden');
+        paymentDetailsQr.classList.add('hidden');
+        
+        if (val === 'toyyibpay') paymentDetailsToyyibpay.classList.remove('hidden');
+        if (val === 'bank') paymentDetailsBank.classList.remove('hidden');
+        if (val === 'qr') paymentDetailsQr.classList.remove('hidden');
+      });
+      
+      let toastTimer;
+      let participantCount = 0;
+
+      function showToast(message) {
+        toastText.textContent = message;
+        toast.classList.add('show');
+        clearTimeout(toastTimer);
+        toastTimer = setTimeout(() => toast.classList.remove('show'), 4200);
+      }
+      
+      function handleRegTypeChange() {
+        const type = document.querySelector('input[name="reg_type"]:checked')?.value;
+        
+        if (!type) return;
+
+        emergencySection.classList.remove('hidden');
+        feeSection.classList.remove('hidden');
+        paymentSection.classList.remove('hidden');
+        confirmationSection.classList.remove('hidden');
+        
+        const setRequired = (container, isReq) => {
+          container.querySelectorAll('input:not([type="checkbox"]):not([type="radio"]), select, textarea').forEach(el => {
+             if(el.id !== 'ind-gender-select' && !el.classList.contains('gender-select') && el.id !== 'ind-ic-input' && !el.classList.contains('ic-input')) {
+               el.required = isReq;
+             }
+          });
+        };
+        
+        document.querySelectorAll('.common-required').forEach(el => el.required = true);
+
+        if (type === 'individu') {
+          individuSection.classList.remove('hidden');
+          keluargaSection.classList.add('hidden');
+          setRequired(individuSection, true);
+          setRequired(keluargaSection, false);
+          
+          handleIndCategoryChange(); 
+        } else if (type === 'keluarga') {
+          individuSection.classList.add('hidden');
+          keluargaSection.classList.remove('hidden');
+          setRequired(individuSection, false);
+          setRequired(keluargaSection, true);
+          
+          if(participantCount === 0) addParticipant();
+        }
+        
+        calculateTotal();
+        updateProgress();
+      }
+
+      typeRadios.forEach(r => r.addEventListener('change', handleRegTypeChange));
+
+      function handleIndCategoryChange() {
+        const val = indCategorySelect.value;
+        indSizeSelect.disabled = false;
+        
+        if (val === 'adult') {
+          indSizeSelect.innerHTML = `
+            <option value="">Pilih saiz</option>
+            <option value="XS">XS</option><option value="S">S</option><option value="M">M</option><option value="L">L</option><option value="XL">XL</option>
+            <option value="2XL">2XL</option>
+            <option value="3XL">3XL (+RM5)</option><option value="4XL">4XL (+RM5)</option><option value="5XL">5XL (+RM5)</option>
+            <option value="6XL">6XL (+RM5)</option><option value="7XL">7XL (+RM5)</option><option value="8XL">8XL (+RM5)</option><option value="9XL">9XL (+RM5)</option>
+          `;
+          indGenderContainer.classList.add('hidden');
+          indGenderSelect.required = false;
+          indGenderSelect.value = '';
+          indIcContainer.classList.remove('hidden');
+          const type = document.querySelector('input[name="reg_type"]:checked')?.value;
+          indIcInput.required = (type === 'individu');
+        } else if (val === 'child') {
+          if (indGenderSelect.value) {
+            indSizeSelect.innerHTML = getChildSizeOptions(indGenderSelect.value);
+            indSizeSelect.disabled = false;
+          } else {
+            indSizeSelect.innerHTML = `<option value="">Pilih jantina terlebih dahulu...</option>`;
+            indSizeSelect.disabled = true;
+          }
+          indGenderContainer.classList.remove('hidden');
+          const type = document.querySelector('input[name="reg_type"]:checked')?.value;
+          indGenderSelect.required = (type === 'individu');
+          indIcContainer.classList.add('hidden');
+          indIcInput.required = false;
+          indIcInput.value = '';
+        } else {
+          indSizeSelect.innerHTML = `<option value="">Pilih kategori terlebih dahulu...</option>`;
+          indSizeSelect.disabled = true;
+          indGenderContainer.classList.add('hidden');
+          indGenderSelect.required = false;
+          indIcContainer.classList.add('hidden');
+          indIcInput.required = false;
+        }
+        calculateTotal();
+        updateProgress();
+      }
+      
+      indCategorySelect.addEventListener('change', handleIndCategoryChange);
+      
+      indGenderSelect.addEventListener('change', () => {
+        if (indCategorySelect.value === 'child') {
+          if (indGenderSelect.value) {
+            indSizeSelect.innerHTML = getChildSizeOptions(indGenderSelect.value);
+            indSizeSelect.disabled = false;
+          } else {
+            indSizeSelect.innerHTML = `<option value="">Pilih jantina terlebih dahulu...</option>`;
+            indSizeSelect.disabled = true;
+          }
+        }
+        calculateTotal();
+        updateProgress();
+      });
+
+      indSizeSelect.addEventListener('change', () => { calculateTotal(); updateProgress(); });
+
+      window.removeParticipant = function(id) {
+        const pCard = document.getElementById(`participant-${id}`);
+        if (pCard) {
+          pCard.remove();
+          calculateTotal();
+          updateProgress();
+        }
+      };
+
+      function addParticipant() {
+        participantCount++;
+        const pId = participantCount;
+        
+        const deleteBtnHtml = pId > 1 
+          ? `<button type="button" class="absolute top-4 right-4 text-red-500 hover:text-red-700 text-sm font-semibold flex items-center gap-1 transition-colors" onclick="window.removeParticipant(${pId})">
+               <i data-lucide="trash-2" class="w-4 h-4"></i> Buang
+             </button>` 
+          : '';
+
+        const html = `
+          <div class="participant-card relative rounded-2xl border border-rose-200 bg-rose-50/50 p-5 pt-7" id="participant-${pId}">
+            ${deleteBtnHtml}
+            <h4 class="font-bold text-rose-900 mb-5 flex items-center gap-2">
+              <span class="bg-rose-200 text-rose-800 rounded-full w-6 h-6 inline-flex items-center justify-center text-xs">${pId}</span>
+              Ahli Keluarga ${pId}
+            </h4>
+            <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+              <div class="sm:col-span-2 lg:col-span-2">
+                <label class="required block mb-2 text-sm font-semibold text-slate-700">Nama Penuh</label>
+                <input type="text" name="p_name_${pId}" class="form-control" required>
+              </div>
+              <div>
+                <label class="required block mb-2 text-sm font-semibold text-slate-700">Kategori</label>
+                <select name="p_category_${pId}" class="form-control category-select" data-pid="${pId}" required>
+                  <option value="">Pilih...</option>
+                  <option value="adult">Dewasa (RM55)</option>
+                  <option value="child">Kanak-kanak (RM40)</option>
+                </select>
+              </div>
+              <div>
+                <label class="required block mb-2 text-sm font-semibold text-slate-700">Saiz Baju</label>
+                <select name="p_size_${pId}" class="form-control size-select" data-pid="${pId}" required disabled>
+                  <option value="">Pilih kategori...</option>
+                </select>
+              </div>
+              <div class="adult-ic-container hidden sm:col-span-2 lg:col-span-4" id="ic-container-${pId}">
+                <label class="required block mb-2 text-sm font-semibold text-slate-700">No. Kad Pengenalan</label>
+                <input type="text" name="p_ic_${pId}" class="form-control ic-input w-full lg:w-1/4" id="ic-input-${pId}" placeholder="Contoh: 900101-11-1234" maxlength="14">
+              </div>
+              <div class="child-gender-container hidden sm:col-span-2 lg:col-span-4" id="gender-container-${pId}">
+                <label class="required block mb-2 text-sm font-semibold text-slate-700">Jantina (Kanak-kanak sahaja)</label>
+                <select name="p_gender_${pId}" class="form-control gender-select w-full lg:w-1/4" id="gender-select-${pId}" data-pid="${pId}">
+                  <option value="">Pilih jantina</option>
+                  <option value="Lelaki">Lelaki</option>
+                  <option value="Perempuan">Perempuan</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        `;
+        
+        participantsContainer.insertAdjacentHTML('beforeend', html);
+        lucide.createIcons();
+        updateProgress();
+      }
+
+      participantsContainer.addEventListener('change', (e) => {
+        if (e.target.classList.contains('category-select')) {
+          const pId = e.target.dataset.pid;
+          const sizeSelect = document.querySelector(`.size-select[data-pid="${pId}"]`);
+          const genderContainer = document.getElementById(`gender-container-${pId}`);
+          const genderSelect = document.getElementById(`gender-select-${pId}`);
+          const icContainer = document.getElementById(`ic-container-${pId}`);
+          const icInput = document.getElementById(`ic-input-${pId}`);
+          const val = e.target.value;
+
+          sizeSelect.disabled = false;
+
+          if (val === 'adult') {
+            sizeSelect.innerHTML = `
+              <option value="">Pilih saiz</option>
+              <option value="XS">XS</option><option value="S">S</option><option value="M">M</option><option value="L">L</option><option value="XL">XL</option>
+              <option value="2XL">2XL</option>
+              <option value="3XL">3XL (+RM5)</option><option value="4XL">4XL (+RM5)</option><option value="5XL">5XL (+RM5)</option>
+              <option value="6XL">6XL (+RM5)</option><option value="7XL">7XL (+RM5)</option><option value="8XL">8XL (+RM5)</option><option value="9XL">9XL (+RM5)</option>
+            `;
+            genderContainer.classList.add('hidden');
+            genderSelect.required = false;
+            genderSelect.value = '';
+            icContainer.classList.remove('hidden');
+            icInput.required = true;
+          } else if (val === 'child') {
+            if (genderSelect.value) {
+              sizeSelect.innerHTML = getChildSizeOptions(genderSelect.value);
+              sizeSelect.disabled = false;
+            } else {
+              sizeSelect.innerHTML = `<option value="">Pilih jantina terlebih dahulu...</option>`;
+              sizeSelect.disabled = true;
+            }
+            genderContainer.classList.remove('hidden');
+            genderSelect.required = true;
+            icContainer.classList.add('hidden');
+            icInput.required = false;
+            icInput.value = '';
+          } else {
+            sizeSelect.innerHTML = `<option value="">Pilih kategori...</option>`;
+            sizeSelect.disabled = true;
+            genderContainer.classList.add('hidden');
+            genderSelect.required = false;
+            icContainer.classList.add('hidden');
+            icInput.required = false;
+          }
+          
+          calculateTotal();
+          updateProgress();
+        }
+
+        if (e.target.classList.contains('gender-select')) {
+          const pId = e.target.dataset.pid;
+          const sizeSelect = document.querySelector(`.size-select[data-pid="${pId}"]`);
+          const catSelect = document.querySelector(`.category-select[data-pid="${pId}"]`);
+          
+          if (catSelect.value === 'child') {
+            if (e.target.value) {
+              sizeSelect.innerHTML = getChildSizeOptions(e.target.value);
+              sizeSelect.disabled = false;
+            } else {
+              sizeSelect.innerHTML = `<option value="">Pilih jantina terlebih dahulu...</option>`;
+              sizeSelect.disabled = true;
+            }
+          }
+          calculateTotal();
+          updateProgress();
+        }
+
+        if (e.target.classList.contains('size-select')) {
+          calculateTotal();
+          updateProgress();
+        }
+      });
+
+      addParticipantBtn.addEventListener('click', addParticipant);
+
+      function calculateTotal() {
+        const type = document.querySelector('input[name="reg_type"]:checked')?.value;
+        if(!type) return;
+
+        let total = 0;
+        let adultCount = 0;
+        let childCount = 0;
+        let extraChargeCount = 0;
+
+        if (type === 'individu') {
+           const cat = indCategorySelect.value;
+           const size = indSizeSelect.value;
+           
+           if(cat === 'adult') {
+             adultCount++;
+             total += 55;
+             if (['3XL','4XL','5XL','6XL','7XL','8XL','9XL'].includes(size)) {
+                extraChargeCount++;
+                total += 5;
+             }
+           } else if (cat === 'child') {
+             childCount++;
+             total += 40;
+           }
+        } else if (type === 'keluarga') {
+           document.querySelectorAll('.participant-card').forEach(card => {
+            const cat = card.querySelector('.category-select').value;
+            const size = card.querySelector('.size-select').value;
+
+            if (cat === 'adult') {
+              adultCount++;
+              total += 55;
+              if (['3XL','4XL','5XL','6XL','7XL','8XL','9XL'].includes(size)) {
+                extraChargeCount++;
+                total += 5; 
+              }
+            } else if (cat === 'child') {
+              childCount++;
+              total += 40;
+            }
+          });
+        }
+
+        let summaryHTML = '';
+        if (adultCount > 0) {
+          summaryHTML += `<div class="flex justify-between font-medium text-rose-900 mb-1.5"><span>Dewasa (RM55) x ${adultCount}</span><span>RM ${adultCount * 55}</span></div>`;
+        }
+        if (childCount > 0) {
+          summaryHTML += `<div class="flex justify-between font-medium text-rose-900 mb-1.5"><span>Kanak-kanak (RM40) x ${childCount}</span><span>RM ${childCount * 40}</span></div>`;
+        }
+        if (extraChargeCount > 0) {
+          summaryHTML += `<div class="flex justify-between text-amber-600 font-medium text-sm mb-1"><span>Caj Saiz Besar (+RM5) x ${extraChargeCount}</span><span>RM ${extraChargeCount * 5}</span></div>`;
+        }
+
+        if (summaryHTML === '') {
+          summaryList.innerHTML = '<div class="text-slate-500 italic">Sila tambah peserta dan lengkapkan butiran.</div>';
+          summaryTotal.textContent = 'RM 0';
+        } else {
+          summaryList.innerHTML = summaryHTML;
+          summaryTotal.textContent = `RM ${total}`;
+        }
+      }
+
+      function updateProgress() {
+        const type = document.querySelector('input[name="reg_type"]:checked')?.value;
+        let requiredFields = [];
+        
+        requiredFields.push(...form.querySelectorAll('input[name="reg_type"]'));
+        
+        if (type) {
+           const activeSection = type === 'individu' ? individuSection : keluargaSection;
+           requiredFields.push(...activeSection.querySelectorAll('[required]'));
+           requiredFields.push(...emergencySection.querySelectorAll('[required]'));
+           requiredFields.push(...paymentSection.querySelectorAll('[required]'));
+           requiredFields.push(...confirmationSection.querySelectorAll('[required]'));
+        }
+        
+        if (!requiredFields.length) {
+          progressFill.style.width = '0%';
+          progressText.textContent = '0%';
+          return;
+        }
+
+        const uniqueRequiredFields = [];
+        const seenNames = new Set();
+        
+        requiredFields.forEach(el => {
+           if(el.type === 'radio') {
+             if(!seenNames.has(el.name)) {
+                seenNames.add(el.name);
+                uniqueRequiredFields.push(el);
+             }
+           } else {
+             uniqueRequiredFields.push(el);
+           }
+        });
+
+        const completed = uniqueRequiredFields.filter(el => {
+          if (el.type === 'radio') return !!form.querySelector(`input[name="${el.name}"]:checked`);
+          if (el.type === 'checkbox') return el.checked;
+          if (el.type === 'file') return el.files && el.files.length > 0 && !el.dataset.invalid;
+          return el.value.trim() !== '';
+        }).length;
+
+        const percentage = Math.round((completed / uniqueRequiredFields.length) * 100);
+        progressFill.style.width = percentage + '%';
+        progressText.textContent = percentage + '%';
+      }
+
+      function validateFile() {
+        fileStatus.classList.add('hidden');
+        fileInput.dataset.invalid = '';
+
+        const file = fileInput.files[0];
+        if (!file) {
+          updateProgress();
+          return true;
+        }
+
+        const validTypes = ['image/jpeg', 'image/png', 'application/pdf'];
+        const validExtensions = /\.(jpg|jpeg|png|pdf)$/i;
+        const isValidType = validTypes.includes(file.type) || validExtensions.test(file.name);
+        const isValidSize = file.size <= 10 * 1024 * 1024;
+
+        if (!isValidType || !isValidSize) {
+          fileInput.dataset.invalid = 'true';
+          fileStatus.textContent = !isValidType
+            ? 'Fail tidak disokong. Sila pilih JPG, PNG atau PDF.'
+            : 'Saiz fail melebihi had 10MB.';
+          fileStatus.className = 'mt-2 text-sm font-semibold text-red-700';
+          updateProgress();
+          return false;
+        }
+
+        fileStatus.textContent = 'Bukti pembayaran dipilih: ' + file.name;
+        fileStatus.className = 'mt-2 text-sm font-semibold text-rose-600';
+        updateProgress();
+        return true;
+      }
+
+      form.addEventListener('input', updateProgress);
+      form.addEventListener('change', updateProgress);
+      fileInput.addEventListener('change', validateFile);
+
+      function getBase64(file) {
+        return new Promise((resolve, reject) => {
+          const reader = new FileReader();
+          reader.readAsDataURL(file);
+          reader.onload = () => resolve(reader.result.split(',')[1]); 
+          reader.onerror = error => reject(error);
+        });
+      }
+
+      form.addEventListener('submit', async event => {
+        event.preventDefault();
+        errorBox.classList.add('hidden');
+        
+        const type = document.querySelector('input[name="reg_type"]:checked')?.value;
+        if (!type) {
+           errorBox.textContent = 'Sila pilih jenis pendaftaran (Individu / Keluarga) di Langkah 1.';
+           errorBox.classList.remove('hidden');
+           return;
+        }
+
+        if (type === 'keluarga') {
+            const participantCards = document.querySelectorAll('.participant-card');
+            if (participantCards.length === 0) {
+               errorBox.textContent = 'Sila tambah sekurang-kurangnya satu peserta ahli keluarga.';
+               errorBox.classList.remove('hidden');
+               return;
+            }
+        }
+
+        if (!validateFile()) {
+          errorBox.textContent = 'Sila betulkan fail bukti pembayaran sebelum menghantar borang.';
+          errorBox.classList.remove('hidden');
+          return;
+        }
+
+        if (!form.checkValidity()) {
+          errorBox.textContent = 'Sila lengkapkan semua medan wajib dan pengesahan sebelum menghantar borang.';
+          errorBox.classList.remove('hidden');
+          
+          const firstInvalid = form.querySelector(':invalid');
+          if (firstInvalid) {
+            firstInvalid.focus();
+            firstInvalid.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          }
+          return;
+        }
+
+        const submitBtn = document.getElementById('submit-button');
+        const originalBtnText = submitBtn.innerHTML;
+        submitBtn.innerHTML = '<i data-lucide="loader-2" class="h-5 w-5 animate-spin"></i> Sedang Dihantar...';
+        submitBtn.disabled = true;
+        lucide.createIcons(); 
+
+        try {
+          const type = document.querySelector('input[name="reg_type"]:checked').value;
+          let payload = {
+            reg_type: type,
+            name: type === 'individu' ? form.ind_name.value : form.head_name.value,
+            phone: type === 'individu' ? form.ind_phone.value : form.head_phone.value,
+            email: type === 'individu' ? form.ind_email.value : form.head_email.value,
+            address: type === 'individu' ? 
+              `${form.ind_address.value}, ${form.ind_city.value}, ${form.ind_postcode.value} ${form.ind_state.value}` : 
+              `${form.head_address.value}, ${form.head_city.value}, ${form.head_postcode.value} ${form.head_state.value}`,
+            emergency: `${form.emergency_name.value} (${form.emergency_phone.value} - ${form.emergency_relation.value})`,
+            total_amount: document.getElementById('summary-total').textContent,
+            payment_method: form.querySelector('#payment-method-select').value
+          };
+
+          if (type === 'individu') {
+            payload.participants = `[Individu] Kategori: ${form.ind_category.value}, Saiz: ${form.ind_size.value}, Jantina: ${form.ind_gender.value || 'N/A'}, No. KP: ${form.ind_ic.value || 'N/A'}`;
+          } else {
+            let pList = [];
+            document.querySelectorAll('.participant-card').forEach((card, idx) => {
+              const pName = card.querySelector('input[type="text"]').value;
+              const pCat = card.querySelector('.category-select').value;
+              const pSize = card.querySelector('.size-select').value;
+              const pGen = card.querySelector('.gender-select').value;
+              const pIc = card.querySelector('.ic-input').value;
+              pList.push(`${idx + 1}. ${pName} (${pCat}, Saiz: ${pSize}, Jantina: ${pGen || 'N/A'}, No. KP: ${pIc || 'N/A'})`);
+            });
+            payload.participants = pList.join('\n');
+          }
+
+          const file = fileInput.files[0];
+          if (file) {
+            payload.fileBase64 = await getBase64(file);
+            payload.fileName = file.name;
+            payload.fileMimeType = file.type;
+          }
+
+          if(!SCRIPT_URL || SCRIPT_URL.includes("YOUR_SCRIPT_URL_HERE")) {
+              throw new Error("URL Web App (Google Apps Script) belum dikonfigurasi dengan betul dalam kod.");
+          }
+
+          const response = await fetch(SCRIPT_URL, {
+            method: 'POST',
+            body: JSON.stringify(payload),
+            headers: { 'Content-Type': 'text/plain;charset=utf-8' } 
+          });
+
+          const result = await response.json();
+          
+          if (result.status === 'success') {
+            form.classList.add('hide');
+            successView.classList.add('show');
+            successView.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            
+            setTimeout(() => {
+              telegramModal.classList.remove('hidden');
+              telegramModal.classList.add('flex');
+            }, 500);
+          } else {
+            throw new Error(result.message || 'Sistem gagal menyimpan rekod.');
+          }
+        } catch (err) {
+          console.error(err);
+          errorBox.textContent = 'Gagal menghantar borang. ' + err.message;
+          errorBox.classList.remove('hidden');
+        } finally {
+          submitBtn.innerHTML = originalBtnText;
+          submitBtn.disabled = false;
+        }
+      });
+
+      updateProgress();
+    });
+  </script>
+</body>
+</html>
